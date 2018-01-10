@@ -30,6 +30,9 @@ class Gopay extends Object
 	/** @const Elektronická peněženka PayPal */
 	const METHOD_PAYPAL = 'eu_paypal';
 
+	/** @const Bitcoin platba */
+	const METHOD_BITCOIN = 'eu_bitcoin';
+
 	/** @const Terminály České pošty, s.p. a spol. Sazka, a.s. */
 	const METHOD_SUPERCASH = 'SUPERCASH';
 
