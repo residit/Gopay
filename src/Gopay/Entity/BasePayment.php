@@ -19,7 +19,7 @@ use stdClass;
  */
 abstract class BasePayment
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
 	/** @var float */
 	private $sum;

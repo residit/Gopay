@@ -11,6 +11,8 @@ use Markette\Gopay\Gopay;
 abstract class AbstractService
 {
 
+    use \Nette\SmartObject;
+
 	/** @var bool */
 	protected $changeChannel;
 

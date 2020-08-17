@@ -14,7 +14,7 @@ use Markette\Gopay\Api\GopaySoap;
  */
 class Gopay
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
 	// METHODS =================================================================
 
